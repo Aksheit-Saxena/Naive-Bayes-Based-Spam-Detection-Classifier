@@ -54,3 +54,10 @@ In general , the algorithm used can be summarized as the following steps :
             c. For posterior probability, a logarithmic function and independent Bernoulli distribution are used, with the probability being the likelihood value calculated as above for each                     vector.
             d. For training prediction, the posterior probability of each class is compared, and the class with the greater probability is chosen as the predicted class.
             e. The code for testing is similar, except that the likelihood is not calculated, as only references from the training set are used for posterior probability calculation.
+
+The following metrics are calculated:
+  a. Training accuracy- Calculated as a ra?o of total number of correct training predic?ons to the total number of training dataset instances
+  b. Tes-ng Accuracy - Calculated as a ra?o of total number of correct tes?ng predic?ons to the total number of tes?ng dataset instances
+  c. Precision- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of posi?ve predic?ons(true +false). Here we are taking classifica?on as ‘ham’ as a posi?ve predic?on and classifica?on as ‘spam’ as a nega?ve predic?on.
+  d. Recall- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of true posi?ve +false nega?ve predic?ons.
+  e. F1-score- Calculated by using the precison and recall values as a formula:2 * (precision * recall) / (precision + recall)
