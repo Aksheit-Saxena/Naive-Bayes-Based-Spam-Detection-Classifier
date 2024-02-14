@@ -56,6 +56,7 @@ In general , the algorithm used can be summarized as the following steps :
             e. The code for testing is similar, except that the likelihood is not calculated, as only references from the training set are used for posterior probability calculation.
 
 The following metrics are calculated:
+
   a. Training accuracy- Calculated as a ra?o of total number of correct training predic?ons to the total number of training dataset instances
   b. Tes-ng Accuracy - Calculated as a ra?o of total number of correct tes?ng predic?ons to the total number of tes?ng dataset instances
   c. Precision- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of posi?ve predic?ons(true +false). Here we are taking classifica?on as ‘ham’ as a posi?ve predic?on and classifica?on as ‘spam’ as a nega?ve predic?on.
