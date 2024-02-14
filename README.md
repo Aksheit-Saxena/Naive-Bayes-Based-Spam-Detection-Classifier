@@ -66,3 +66,28 @@ The following metrics are calculated:
   d. Recall- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of true posi?ve +false nega?ve predic?ons.
   
   e. F1-score- Calculated by using the precison and recall values as a formula:2 * (precision * recall) / (precision + recall)
+
+  <img width="894" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/42a7bd75-78d8-45cf-b661-b1f1b024e2d3">
+
+  <img width="768" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/d869798f-1ccd-4fd0-990b-274ebf6f5e82">
+
+  <img width="741" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/a28ca630-4e23-42ee-8569-a9b840bd1c8f">
+
+  <img width="748" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/c5531de3-0446-4420-ad3b-17debffde91a">
+
+  <img width="912" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/d3ba3d70-cd1d-46ce-b5d9-e595d8615de1">
+
+  <img width="855" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/ed76e9f9-3ce2-4120-b5e0-f649051084dd">
+
+
+The accuracy of the Naive Bayes classifier is highly dependent on the quality of the pre-processing step and the choice of the vocabulary size. Increasing the size of the vocabulary may lead to overfitting, while reducing it may result in underfitting.
+  • The accuracy of the Naive Bayes classifier is affected by the prior probabilities of each class. If the prior probabilities are significantly different from each other, the classifier may not perform well.
+  • The Naive Bayes classifier performs reasonably well on the SMSSpamCollection dataset, achieving an accuracy of around 97%.
+  • The values of the hyperparameters >=700 are considered favourable for the algorithm implementation and show a consistent accuracy-training & testing ,precision, recall &f1-score values.
+  • For 500=<k<1000, inconsistency is being observed especially when k values are between 600 & 700. This inconsistency is being seen for all metrics- but the maximum fluctuation is seen across recall & training accuracy.
+  • For 1500=<k<=2000; again a slight dip is observed but thereafter it increases and continues to be consistent.
+
+NOTE: All the graph generation was done after tweaking the code a bit and a different .py file was used. Please find attached the respective file “Graph_final.py”.
+
+
+
