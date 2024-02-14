@@ -41,6 +41,7 @@ In general , the algorithm used can be summarized as the following steps :
 
 **Implementation details
 **
+
     1. Firstly, the data is read into a dataframe called "df", and the column names are set to ['Ham_or_Spam', 'SMS'].
     2. The 'SMS' column of the dataframe is then preprocessed by splitting it on the regex pattern nacc_char = '[^A-Za-z0-9$\s]', removing any unwanted characters, and joining it again as a string.
     3. The data is then split into training and testing datasets using an 80-20 split ratio. To ensure that both the spam and ham classes are equally represented in the datasets, the df dataframe is first split into two datasets, df_spam and df_ham, representing spam and ham classifications, respectively. These are concatenated using pandas index slicing to form the training and testing dataframes, training_data and testing_data. Finally, the index for both dataframes is reset to start from 0 to make manipulation easier.
