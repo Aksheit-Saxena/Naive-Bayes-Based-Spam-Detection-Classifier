@@ -57,15 +57,15 @@ In general , the algorithm used can be summarized as the following steps :
 
 The following metrics are calculated:
 
-  a. Training accuracy- Calculated as a ratio of total number of correct training predic?ons to the total number of training dataset instances
-
-  b. Testing Accuracy - Calculated as a ra?o of total number of correct tes?ng predic?ons to the total number of tes?ng dataset instances
+    a. Training accuracy- Calculated as a ratio of total number of correct training predic?ons to the total number of training dataset instances
   
-  c. Precision- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of posi?ve predic?ons(true +false). Here we are taking classifica?on as ‘ham’ as a posi?ve predic?on and classifica?on as ‘spam’ as a nega?ve predic?on.
-  
-  d. Recall- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of true posi?ve +false nega?ve predic?ons.
-  
-  e. F1-score- Calculated by using the precison and recall values as a formula:2 * (precision * recall) / (precision + recall)
+    b. Testing Accuracy - Calculated as a ra?o of total number of correct tes?ng predic?ons to the total number of tes?ng dataset instances
+    
+    c. Precision- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of posi?ve predic?ons(true +false). Here we are taking classifica?on as ‘ham’ as a posi?ve predic?on and classifica?on as ‘spam’ as a nega?ve predic?on.
+    
+    d. Recall- Calculated as a ra?o of total number of true posi?ve predic?ons to the total number of true posi?ve +false nega?ve predic?ons.
+    
+    e. F1-score- Calculated by using the precison and recall values as a formula:2 * (precision * recall) / (precision + recall)
 
   <img width="894" alt="image" src="https://github.com/Aksheit-Saxena/Naive-Bayes-Based-Spam-Detection-Classifier/assets/58588004/42a7bd75-78d8-45cf-b661-b1f1b024e2d3">
 
